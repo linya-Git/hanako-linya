@@ -1,0 +1,29 @@
+{
+  "id": "knowledge-base",
+  "name": "Knowledge Base",
+  "version": "0.1.0",
+  "description": "知识库：文档上传、分块存储、全文检索，对标 Coze Knowledge",
+  "trust": "full-access",
+  "hidden": false,
+  "contributes": {
+    "configuration": {
+      "properties": {
+        "chunkSize": {
+          "type": "number",
+          "title": "分块大小（字符数）",
+          "default": 512
+        },
+        "chunkOverlap": {
+          "type": "number",
+          "title": "分块重叠（字符数）",
+          "default": 100
+        },
+        "maxSearchResults": {
+          "type": "number",
+          "title": "最大搜索结果数",
+          "default": 5
+        }
+      }
+    }
+  }
+}
