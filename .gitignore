@@ -1,0 +1,24 @@
+# Electron runtime binaries
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+*.ico
+
+# Node modules
+node_modules/
+
+# Bundled Git (huge)
+resources/git/
+
+# ASAR package
+resources/app.asar
+
+# Logs & temp
+*.log
+*.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db
